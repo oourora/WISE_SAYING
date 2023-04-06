@@ -45,7 +45,7 @@ public class APP {
                 }
                 for (Sayinglist sayingList : sayingLists) {
                     Sayinglist sayinglist = sayingLists.get(i);
-
+                        //
                     System.out.printf("%d / %s / %s", sayinglist.getId(), sayinglist.getContent(), sayinglist.getAuthor());
 
                 }
