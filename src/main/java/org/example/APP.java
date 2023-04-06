@@ -37,14 +37,18 @@ public class APP {
                 System.out.println("번호 / 작가 / 명언");
                 System.out.println("-".repeat(30));
 
-                for (int i=sayingLists.size()-1;i>=0;i--) {
+                for (int i = sayingLists.size() - 1; i >= 0; i--) {
                     Sayinglist sayinglist = sayingLists.get(i);
 
-                    System.out.printf("%d / %s / %s",sayinglist.getId(),sayinglist.getContent() ,sayinglist.getAuthor());
+                    System.out.printf("%d / %s / %s", sayinglist.getId(), sayinglist.getContent(), sayinglist.getAuthor());
 
                 }
+                for (Sayinglist sayingList : sayingLists) {
+                    Sayinglist sayinglist = sayingLists.get(i);
 
+                    System.out.printf("%d / %s / %s", sayinglist.getId(), sayinglist.getContent(), sayinglist.getAuthor());
 
+                }
             }
         }
 
