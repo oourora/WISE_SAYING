@@ -42,7 +42,7 @@ public class APP {
 
                     System.out.printf("%d / %s / %s", sayinglist.getId(), sayinglist.getContent(), sayinglist.getAuthor());
 
-                }
+                }//
                 for (Sayinglist sayingList : sayingLists) {
                     Sayinglist sayinglist = sayingLists.get(i);
                         //
